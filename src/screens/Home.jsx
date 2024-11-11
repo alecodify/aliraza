@@ -5,7 +5,7 @@ import homeLogo from '../assets/home.png';
 const Home = () => {
   return (
     <section>
-    <div className="home-section md:pt-24 md:mx-32" id="home">
+    <div className="home-section pt-16 md:pt-24 md:mx-32" id="home">
       <div className="home-content container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         

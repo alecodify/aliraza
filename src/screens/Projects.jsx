@@ -8,7 +8,7 @@ import Project3 from "../assets/projects/3.png";
 function Projects() {
   return (
     <div className="project-section">
-      <div className="max-w-screen-lg mx-auto mt-10 md:mt-20 px-4 py-8">
+      <div className="max-w-screen-lg mx-auto mt-16 md:mt-20 px-4 py-8">
         <h1 className="text-3xl font-semibold mb-6 text-center">
           My Recent <strong className="text-green-500">Works</strong>
         </h1>
