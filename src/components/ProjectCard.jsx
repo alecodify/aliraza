@@ -8,7 +8,7 @@ function ProjectCards({ imgPath, ghLink, title, description, demoLink, readmeLin
       <img
         src={imgPath}
         alt="project-img"
-        className="w-full h-64 object-cover transition-all duration-300 hover:opacity-80"
+        className="w-full px-2 h-64 object-cover transition-all duration-300 hover:opacity-80"
       />
       <div className="p-4">
         <h3 className="text-xl font-semibold text-gray-800 uppercase">{title}</h3>

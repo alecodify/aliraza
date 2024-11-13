@@ -3,6 +3,7 @@ import { ProjectCard } from "../components";
 import Project1 from "../assets/projects/1.png";
 import Project2 from "../assets/projects/2.png";
 import Project3 from "../assets/projects/3.png";
+import Project4 from "../assets/projects/4.png";
 
 
 function Projects() {
@@ -18,6 +19,15 @@ function Projects() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
+           <ProjectCard
+              imgPath={Project4}
+              title="Jobs Portal"
+              description="This project allow you to easily perform CRUD operations like create, read, update, and delete jobs using Vue with Vite."
+              ghLink="https://github.com/alecodify/job-portal"
+              demoLink="https://job-portal-client-gamma.vercel.app/"
+              readmeLink=""
+            />
+
             <ProjectCard
               imgPath={Project3}
               title="Survey"
@@ -30,7 +40,7 @@ function Projects() {
             <ProjectCard
               imgPath={Project1}
               title="Html-Css-JavaScript"
-              description="100 mini web projects using HTML, CSS and JavaScript."
+              description="A collection of 100 mini web projects built with HTML, CSS, and JavaScript, perfect for enhancing frontend development skills."
               ghLink="https://github.com/alecodify/html-css-javascript-projects"
               demoLink=""
               readmeLink="https://github.com/alecodify/html-css-javascript-projects/blob/main/readme.md"

@@ -15,9 +15,11 @@ const Navbar = () => {
     <div>
       <nav className="flex justify-between md:h-24 items-center px-4 md:px-16 lg:px-36 py-6 md:py-8 fixed top-0 bg-white w-full z-50">
         <div className="flex items-center text-lg font-bold">
-          <span className="text-green-500">{"< "}</span>
-          <span className="font-semibold text-xl logo-name px-2">Ali Raza</span>
-          <span className="text-green-500">{" />"}</span>
+          <a href="/" className=' decoration-none'>
+            <span className="text-green-500">{"< "}</span>
+            <span className="font-semibold text-xl logo-name px-2">Ali Raza</span>
+            <span className="text-green-500">{" />"}</span>
+          </a>
         </div>
 
         <div className="hidden md:flex">
