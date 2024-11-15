@@ -39,7 +39,7 @@ const Footer = () => {
             <FaGithub className="text-2xl" />
           </a>
           <a
-            href="https://www.instagram.com/0lyraza"
+            href="https://www.instagram.com/al0raza"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-green-500 transition-colors duration-200"

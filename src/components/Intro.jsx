@@ -81,7 +81,7 @@ const Intro = () => {
             <FaLinkedinIn />
           </a>
           <a
-            href="https://www.instagram.com/0lyraza"
+            href="https://www.instagram.com/al0raza"
             target="_blank"
             rel="noreferrer"
             className="text-green-400 hover:text-white p-2 rounded-full hover:bg-green-500 text-3xl"
