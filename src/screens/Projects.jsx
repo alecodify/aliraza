@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectCard } from "../components";
+import { MobileAppCard, ProjectCard } from "../components";
 import Project1 from "../assets/projects/1.png";
 import Project2 from "../assets/projects/2.png";
 import Project3 from "../assets/projects/3.png";
@@ -58,6 +58,21 @@ function Projects() {
             
 
         </div>
+
+        <h1 className="text-3xl my-4 font-semibold mb-6 text-center">
+          Mobile Apps <strong className="text-green-500">Works</strong>
+        </h1>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <MobileAppCard
+            imgPath={"/src/assets/projects/mobile-1.jpeg"}
+            title="Recipes App"
+            description="This app allows you to search for recipes, view detailed information about each recipe."
+            apkLink="/src/assets/app/recipes.apk"
+          />
+        </div>
+
+
       </div>
     </div>
   );

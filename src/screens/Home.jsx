@@ -1,5 +1,6 @@
 import React from 'react'
-import { Intro, Typing } from '../components'
+import { FiverrSection, Intro, Typing } from '../components';
+import { motion } from 'framer-motion';
 import homeLogo from '../assets/home.png';
 
 const Home = () => {
@@ -31,18 +32,24 @@ const Home = () => {
             </div>
           </div>
 
-    
-          <div className="flex justify-center items-center">
-            <img
-              src={homeLogo}
-              alt="home pic"
-              className="img-fluid max-h-[450px] w-auto"
-            />
-          </div>
+          <motion.div 
+              className="flex justify-center items-center"
+              animate={{ y: [0, -10, 0] }} 
+              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+            >
+              <motion.img
+                src={homeLogo}
+                alt="home pic"
+                className="img-fluid max-h-[450px] w-auto"
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 1 }}
+              />
+          </motion.div>
         </div>
       </div>
     </div>
-    
+ 
     <div className='mt-10'>
       <Intro />
     </div>

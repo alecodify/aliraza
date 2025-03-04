@@ -33,7 +33,7 @@ function About() {
         </h1>
         <Toolstack />
 
-        <GitHub />
+        {/* <GitHub /> */}
       </div>
     </div>
   );
