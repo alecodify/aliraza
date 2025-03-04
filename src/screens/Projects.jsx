@@ -4,6 +4,7 @@ import Project1 from "../assets/projects/1.png";
 import Project2 from "../assets/projects/2.png";
 import Project3 from "../assets/projects/3.png";
 import Project4 from "../assets/projects/4.png";
+import Mobile1 from "../assets/projects/m1.png"
 
 
 function Projects() {
@@ -65,7 +66,7 @@ function Projects() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <MobileAppCard
-            imgPath={"/src/assets/projects/mobile-1.jpeg"}
+            imgPath={Mobile1}
             title="Recipes App"
             description="This app allows you to search for recipes, view detailed information about each recipe."
             apkLink="/src/assets/app/recipes.apk"
