@@ -4,11 +4,11 @@ import { BsGithub, BsLaptopFill } from "react-icons/bs";
 
 function ProjectCards({ imgPath, ghLink, title, description, demoLink, readmeLink }) {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-xs mx-auto transform transition-transform duration-300 hover:scale-105 hover:shadow-xl shadow-green-500 hover:shadow-green-600">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-xs mx-auto transform transition-transform duration-300 hover:shadow-xl shadow-green-500 hover:shadow-green-600">
       <img
         src={imgPath}
         alt="project-img"
-        className="w-full px-2 h-64 object-cover transition-all duration-300 hover:opacity-80"
+        className="w-full px-2 h-64 object-cover transition-all duration-300"
       />
       <div className="p-4">
         <h3 className="text-xl font-semibold text-gray-800 uppercase">{title}</h3>

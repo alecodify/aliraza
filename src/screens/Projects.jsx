@@ -69,7 +69,7 @@ function Projects() {
             imgPath={Mobile1}
             title="Recipes App"
             description="This app allows you to search for recipes, view detailed information about each recipe."
-            apkLink="/src/assets/app/recipes.apk"
+            apkLink="app/recipes.apk"
           />
         </div>
 

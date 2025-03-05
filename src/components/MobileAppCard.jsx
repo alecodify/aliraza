@@ -2,11 +2,11 @@ import React from "react";
 
 function MobileAppCard({ imgPath, title, description, apkLink }) {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-xs mx-auto transform transition-transform duration-300 hover:scale-105 hover:shadow-xl shadow-green-500 hover:shadow-green-600">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-xs mx-auto transform transition-transform duration-300 hover:shadow-xl shadow-green-500 hover:shadow-green-600">
        <img
         src={imgPath}
         alt="project-img"
-        className="w-full h-64 object-cover transition-all duration-300 hover:opacity-80"
+        className="w-full h-64 object-cover transition-all duration-300"
       />
 
       <div className="p-4">
